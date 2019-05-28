@@ -40,13 +40,17 @@ public abstract class MixinStructurePiece {
     abstract protected int applyZTransform(int int_1, int int_2);
 
 
-    //override method to add chance to replace mossy cobble with infested mossy cobble
+    //override method to add chance for blocks to become infested
     public void addBlock(IWorld iWorld_1, BlockState blockState_1, int int_1, int int_2, int int_3, MutableIntBoundingBox mutableIntBoundingBox_1) {
 
-        //EDITED 
-        //20% chance for mossy cobblestone from world gen to become infected
+        //ADDITION
+        // 1/12th chance for mossy cobble to become infested
         if(blockState_1.equals(Blocks.MOSSY_COBBLESTONE.getDefaultState())) {
             if(new Random().nextInt(12) == 0) blockState_1 = InfestedMain.infMossCobble.getDefaultState();
+
+         // 1/12th chance for bookshelf to become infested
+        } else if(blockState_1.equals(Blocks.BOOKSHELF.getDefaultState())) {
+         if(new Random().nextInt(12) == 0) blockState_1 = InfestedMain.infBookShelf.getDefaultState();
         }
 
 

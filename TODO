@@ -4,14 +4,17 @@ https://bugs.mojang.com/browse/MC-140209
 https://minecraft.gamepedia.com/Infested_Block
 https://minecraft.gamepedia.com/Cobblestone#Natural_generation
 infested mossy cobblestone world gen: mossy boulders(mega taiga biomes)
-                                        dungeons
-                                        jungle temples
                                         pillager outposts
                                         underwater ruins
                                         villages(plains, taiga, snowy taiga, zombie)
+                                        (FIGURE OUT HOW TO EDIT STRUCTURES BASED ON NBT DATA)
 
 bookshelf world gen
+https://minecraft.gamepedia.com/Bookshelf#Natural_generation
+    village libraries
+    village houses
 
-make random chance based on seed 
+
+make random chance of infection based on seed 
 
 replace overrides with injections
