@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.keckle.infested.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinStructurePiece"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "infested",
+  "version": "${version}",
+
+  "name": "Infested",
+  "description": "This mod adds infested block varients to things like mossy cobblestone and bookshelves, with world gen integration",
+  "authors": [
+    "Keckle"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/infested/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.keckle.infested.InfestedMain"
+    ]
+  },
+  "mixins": [
+    "infested.mixins.json"
+  ],
+
+  "requires": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

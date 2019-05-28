@@ -1,0 +1,19 @@
+add loot table json (silk touch drops uninfested varients)
+
+add Infested mossy and cracked stone bricks to stronghold gen
+https://bugs.mojang.com/browse/MC-140209
+
+https://minecraft.gamepedia.com/Infested_Block
+https://minecraft.gamepedia.com/Cobblestone#Natural_generation
+infested mossy cobblestone world gen: mossy boulders(mega taiga biomes)
+                                        dungeons
+                                        jungle temples
+                                        pillager outposts
+                                        underwater ruins
+                                        villages(plains, taiga, snowy taiga, zombie)
+
+bookshelf world gen
+
+make random chance based on seed 
+
+replace overrides with injections
