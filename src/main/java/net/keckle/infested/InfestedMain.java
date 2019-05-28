@@ -17,10 +17,7 @@ import net.minecraft.util.registry.Registry;
 public class InfestedMain implements ModInitializer {
 
 	//ease of use modid string
-	private static final String MOD_ID = "infested";
-	public static String getMod_ID() {
-		return MOD_ID;
-	}
+	public static final String MOD_ID = "infested";
 	
 
 	//CREATE BLOCKS
